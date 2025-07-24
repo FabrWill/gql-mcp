@@ -2,12 +2,6 @@
 
 A Model Context Protocol server that enables LLMs to interact with GraphQL APIs. This implementation provides schema introspection and query execution capabilities, allowing models to discover and use GraphQL APIs dynamically.
 
-<a href="https://glama.ai/mcp/servers/4zwa4l8utf"><img width="380" height="200" src="https://glama.ai/mcp/servers/4zwa4l8utf/badge" alt="mcp-graphql MCP server" /></a>
-
-
-### Environment Variables (Breaking change in 1.0.0)
-
-> **Note:** As of version 1.0.0, command line arguments have been replaced with environment variables.
 
 | Environment Variable | Description | Default |
 |----------|-------------|---------|

@@ -217,7 +217,7 @@ async function main() {
   await server.connect(transport);
 
   console.error(
-    `Started graphql mcp server ${env.NAME} for endpoint: ${env.ENDPOINT}`
+    `Started graphql mcp server for endpoint: ${env.ENDPOINT}`
   );
 }
 
