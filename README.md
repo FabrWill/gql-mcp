@@ -44,6 +44,18 @@ This uses either the local schema file or an introspection query.
 
 ### Installing Manually
 
+start with installing the dependencies
+
+```
+npm i
+``` 
+
+after run the build of the package
+
+```
+npm run build
+```
+
 It can be manually installed to cursor:
 ```json
 {
