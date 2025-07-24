@@ -1,6 +1,6 @@
-# gql-mcp-server
+# Graphql MCP Server
 
-A Model Context Protocol server that enables LLMs to interact with GraphQL APIs. This implementation provides schema introspection and query execution capabilities, allowing models to discover and use GraphQL APIs dynamically.
+A MCP hat provides GQL inspection and execution for LLM's
 
 
 | Environment Variable | Description | Default |
@@ -8,7 +8,6 @@ A Model Context Protocol server that enables LLMs to interact with GraphQL APIs.
 | `ENDPOINT` | GraphQL endpoint URL | `http://localhost:4000/graphql` |
 | `HEADERS` | JSON string containing headers for requests | `{}` |
 | `ALLOW_MUTATIONS` | Enable mutation operations (disabled by default) | `false` |
-| `NAME` | Name of the MCP server | `mcp-graphql` |
 
 ## Resources
 
