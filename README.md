@@ -47,14 +47,15 @@ This uses either the local schema file or an introspection query.
 It can be manually installed to cursor:
 ```json
 {
-    "mcpServers": {
-        "mcp-graphql": {
-            "command": "npx",
-            "args": ["mcp-graphql"],
-            "env": {
-                "ENDPOINT": "http://localhost:3000/graphql"
-            }
-        }
+  "mcpServers": {
+    "gql-mcp-server": {
+      "command": "npx",
+      "args": ["mcp-graphql"],
+      "env": {
+          "ENDPOINT": "https://localhost",
+          "HEADERS": "{\"x-api-key\":\"apikey\"}"
+      }
     }
+  }
 }
 ```
