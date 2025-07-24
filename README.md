@@ -1,6 +1,6 @@
 # Graphql MCP Server
 
-A MCP hat provides GQL inspection and execution for LLM's
+An model contexto protocol adapted to running and list graphql queries
 
 
 | Environment Variable | Description | Default |
