@@ -2,6 +2,9 @@
 
 An model context protocol adapted to running and list graphql queries
 
+<a href="https://glama.ai/mcp/servers/@FabrWill/gql-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@FabrWill/gql-mcp/badge" alt="GraphQL Server MCP server" />
+</a>
 
 | Environment Variable | Description | Default |
 |----------|-------------|---------|
@@ -10,7 +13,6 @@ An model context protocol adapted to running and list graphql queries
 | `ALLOW_MUTATIONS` | Enable mutation operations (disabled by default) | `false` |
 
 ## Resources
-
 
 - **schema**: exposes the GraphQL Schema to easy use by the IA
 
