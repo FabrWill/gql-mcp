@@ -1,6 +1,6 @@
 # Graphql MCP Server
 
-An model contexto protocol adapted to running and list graphql queries
+An model context protocol adapted to running and list graphql queries
 
 
 | Environment Variable | Description | Default |
@@ -49,4 +49,9 @@ It can be manually installed to cursor:
     }
   }
 }
+```
+
+You can also test the mpc using the MPC inspector
+```
+npx -y @modelcontextprotocol/inspector node dist/index.js inspect
 ```
